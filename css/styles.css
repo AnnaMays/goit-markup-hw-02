@@ -42,20 +42,15 @@
     line-height: 1.17;
     letter-spacing: 0.02em;
 }
-.site-nav:hover {
-    color: #2196f3;}
+.site-nav:hover,
 .site-nav:focus {
     color: #2196f3;
  }
- .mailto:hover {
-     color: #2196f3;
- }
+ .mailto:hover,
  .mailto:focus {
      color: #2196f3;
  }
-.phone:hover {
-    color: #2196f3;
-}
+.phone:hover,
 .phone:focus {
     color: #2196f3;
 }
