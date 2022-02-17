@@ -1,7 +1,76 @@
-/*  Верхняя линия  */
+/* <!-- Верхняя линия --> */
+.body {
+    background-color:#ffffff;
+    text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+}
+.logo-studio {
+   color: #212121; 
+   font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.nav a {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+
+}
+.address a {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+.site-nav:hover {
+    color: #2196f3;}
+.site-nav:focus {
+    color: #2196f3;
+ }
+ .mailto:hover {
+     color: #2196f3;
+ }
+ .mailto:focus {
+     color: #2196f3;
+ }
+.phone:hover {
+    color: #2196f3;
+}
+.phone:focus {
+    color: #2196f3;
+}
+
+/*   <!-- Шапка -->   */
+
+
+.hero {
+    background-color:#2F303A;
+    
+}
 
 
 
+    
 /*WebStudio, special color #2196F3; */
 /* background: #ffffff; */
 /*  Студия, Портфолио, Контакты
@@ -24,3 +93,10 @@ color: #FFFFFF; */
 /* г. Киев, пр-т Леси Украинки, 26 
 color: #FFFFFF; */
 /*   address: color: rgba(255, 255, 255, 0.6); */ ;
+
+/* :root {
+    --akcent-color: #2196f3;
+    --second-color: #757575;
+    --background: #f5f4fa;
+    --white-color: #ffffff;
+    --color-text: #212121;}
