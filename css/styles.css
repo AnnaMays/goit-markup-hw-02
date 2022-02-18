@@ -1,85 +1,144 @@
+:root {
+    --accent-color: #2196f3;
+    --text-color: #212121;
+    --bg-color: #2F303A;
+    --white-color: #ffffff;
+    --bg-colore-two: #e5e5e5;
+    --bg-color-three: #f5f4fa;
+    --second-text-color: #757575;
+    --rgba-address-footer: rgba(255, 255, 255, 0.6);}
+
+
+
 /* <!-- Верхняя линия --> */
-.body {
-    background-color:#ffffff;
+body {
+    background-color:var(--white-color);sans-serif;
+    color: var(--second-text-color);
     text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 
 }
+.logo-web:focus {
+color: var(--accent-color);
+}
 .logo-studio {
-   color: #212121; 
+   color:var(--text-color); 
    font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .nav a {
-    color: #212121;
+    color: var(--text-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
 
 }
-.address a {
-    color: #757575;
+.address-header a {
+    color: var(--second-text-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav:hover,
 .site-nav:focus {
-    color: #2196f3;
+    color: var(--accent-color);
+ }
+ .nav .site-nav.curent{
+     color: var(--accent-color);
  }
  .mailto:hover,
  .mailto:focus {
-     color: #2196f3;
+     color: var(--accent-color);
  }
 .phone:hover,
 .phone:focus {
-    color: #2196f3;
+    color: var(--accent-color);
 }
+ul { 
+    list-style: none;
+}
+
 
 /*   <!-- Шапка -->   */
 
 
 .hero {
-    background-color:#2F303A;
+    background-color:var(--bg-color); 
+    box-shadow:0px 4px 4px; 
+    color: rgba(0,0,0,0.25); 
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal; 
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    top: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+.hero-title {
+    color: var(--white-color)
+}
+
+.button {
+color: var(--white-color);
+background-color: var(--accent-color);
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+
+}
+/* Sections */
+
+.feature-title {
+color: var(--text-color)
+}
     
+.section-title {
+    color: var(--text-color)
+}
+.section-text {
+    color: var(--text-color);
 }
 
 
 
-    
-/*WebStudio, special color #2196F3; */
-/* background: #ffffff; */
-/*  Студия, Портфолио, Контакты
- #212121; */
 
-/*<!-- Шапка --> */
 
-/*background: #2F303A; */
-/* Эффективные решения для вашего бизнеса 
-color: #FFFFFF; */
 
 /*  <!-- Особенности --> */
 
-/*background: #e5e5e5;*/
+/*background: #e5e5e5; */
 /* Планирование: color: #212121; */
 
 /*<!-- Подвал --> */
@@ -89,9 +148,3 @@ color: #FFFFFF; */
 color: #FFFFFF; */
 /*   address: color: rgba(255, 255, 255, 0.6); */ ;
 
-/* :root {
-    --akcent-color: #2196f3;
-    --second-color: #757575;
-    --background: #f5f4fa;
-    --white-color: #ffffff;
-    --color-text: #212121;}
