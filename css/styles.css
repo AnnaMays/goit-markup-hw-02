@@ -8,14 +8,14 @@
     --second-text-color: #757575;
     --rgba-address-footer: rgba(255, 255, 255, 0.6);}
 
-
+/* index.html */
 
 /* <!-- Верхняя линия --> */
 body {
     background-color:var(--white-color);sans-serif;
     color: var(--second-text-color);
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14;
@@ -24,7 +24,7 @@ body {
 }
 .logo-web {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -38,18 +38,25 @@ color: var(--accent-color);
 }
 .logo-studio {
    color:var(--text-color); 
-   font-family: Raleway;
-  font-style: normal;
+   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.logo-footer {
+    color: var(--white-color); 
+    font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   text-decoration: none;  
+}
+
 .nav a {
     color: var(--text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -59,8 +66,6 @@ color: var(--accent-color);
 }
 .address-header a {
     color: var(--second-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -92,11 +97,8 @@ ul {
 
 .hero {
     background-color:var(--bg-color); 
-    box-shadow:0px 4px 4px; 
     color: rgba(0,0,0,0.25); 
-    font-family: Roboto, sans-serif;
-    font-size: 44px;
-    font-style: normal; 
+    font-size: 44px; 
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -115,36 +117,98 @@ width: 200px;
 height: 50px;
 left: 700px;
 top: 430px;
-
-
 }
-/* Sections */
 
-.feature-title {
-color: var(--text-color)
+
+/* Особенности */
+
+.feature-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    color: var(--text-color);
+    text-transform: uppercase;
 }
-    
+.feature-txt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
 .section-title {
+    font-size: 36px;
+    line-height: 1.17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
     color: var(--text-color)
 }
 .section-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
+/* Footer */
+
+.page-class {
+    background-color: var(--bg-color);
+}
+.footer-map {
+    color: var(--white-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.footer-address {
+    color: var(--rgba-address-footer);
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* Portfolio.html */
 
 
+    
+.button-item {
+    background-color: var(--bg-color-three);
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    border-style: none;
+}
+
+.button-item:hover,
+.button-item:focus {
+color: var(--white-color);
+background-color: var(--accent-color);
+}
 
 
+a {
+    text-decoration: none;
+}
 
-/*  <!-- Особенности --> */
 
-/*background: #e5e5e5; */
-/* Планирование: color: #212121; */
+.work-tagline {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 00.06em;  
+}
+.work-txt {
+color: var(--second-text-color);
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 00.03em;
+}
 
-/*<!-- Подвал --> */
-
-/* background: #2F303A;*/
-/* г. Киев, пр-т Леси Украинки, 26 
-color: #FFFFFF; */
-/*   address: color: rgba(255, 255, 255, 0.6); */ ;
 
